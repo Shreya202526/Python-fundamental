@@ -1,0 +1,7 @@
+name=input("Name")
+age=int(input("Age"))
+phone=input("Phone")
+print("---Bio Data---")
+print("Name:",name)
+print("Age:",age)
+print("Phone:",phone)
