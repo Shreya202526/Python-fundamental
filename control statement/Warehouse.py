@@ -12,86 +12,86 @@ Unit6 = 390
 
 Output:
 Highest Stock = 500'''
-a=int(input("Unit1="))
-b=int(input("Unit2="))
-c=int(input("Unit3="))
-d=int(input("Unit4="))
-e=int(input("Unit5="))
-f=int(input("Unit6="))
-if a>=b:
-   if a>=c: 
-       if a>=d: 
-           if a>=e:
-                   if a>=f:
-                       print("a is greater")
+unit1=int(input("Unit1="))
+unit2=int(input("Unit2="))
+unit3=int(input("Unit3="))
+unit4=int(input("Unit4="))
+Unit5=int(input("Unit5="))
+unit6=int(input("Unit6="))
+if unit1>=unit2:
+   if unit1>=unit3: 
+       if unit1>=unit4: 
+           if unit1>=unit5:
+                   if unit1>=unit6:
+                       print("Highest stock",unit1)
                    else:
-                       print("f is greater")
+                    print("Highest stock",unit6) 
            else:  
-                if e>=f: 
-                    print("e is greater")
+                if unit5>=unit6: 
+                    print("Highest stock",unit5)
                 else:
-                    print("f if greater")
+                    print("Highest stock",unit6)
        else:
-               if d>=e:
-                     if d>=f:
-                           print("D id greater")
+               if unit4>=unit5:
+                     if unit5>=unit6:
+                           print("Highest stock",unit4)
                      else:
-                           print("f is greater")
+                           print("Highest stock",unit5)
                else:
-                    if e>=f:
-                       print("e is greater")
+                    if unit5>=unit6:
+                       print("highest stock",unit5)
                     else:  
-                       print("f is grater")   
+                       print("highest stock",unit6)   
 
    else: 
-        if c>=d:
-              if c>=e:
-                 if c>=f:
-                        print("cis greater")
+        if unit3>=unit4:
+              if unit3>=unit5:
+                 if unit3>=unit6:
+                        print("highest stock",unit3)
 
                  else:
-                      print("f is greater")
+                      print("highest stock",unit6)
               else:
-                   if  e>=f:
-                       print("E is greater")
+                   if  unit5>=unit6:
+                       print("highest stock",unit5)
 
                    else:
-                       print("F is greatrer")
+                       print("highest stock",unit6)
         else:
-             if d>=e:
-                 if d>=f:
-                    print("d is grater")
+             if unit4>=unit5:
+                 if unit4>=unit6:
+                    print("highest stock",unit4)
                  else:
-                    print("f is greater")
+                    print("highest stock",unit6)
              else:
-                  if e>=f:
-                    print("e is graeter")
+                  if unit5>=unit6:
+                    print("highest stock",unit5)
                   else :
-                    print(" f is graeter")
+                    print("highest stock",unit6)
 else:
-     if b>=c: 
-         if b>=d: 
-             if b>=e:
-                   if b>=f:
-                       print("b is greater")
+     if unit2>=unit3: 
+         if unit2>=unit4: 
+             if unit2>=unit5:
+                   if unit2>=unit6:
+                       printHig("highest Stock=",unit2)
                    else:
-                       print("f is greater")
+                       print("highest Stock=",unit2)
              else:  
-                 if e>=f: 
-                    print("e is greater")
+                 if unit5>=unit6: 
+                    print("highest Stock=",unit5)
                  else:
-                    print("f if greater")
+                    print("highest stock",unit6)
      else:
-               if d>=e: 
-                  if d>=f:
-                       print("d is greater")
+               if unit4>=unit5: 
+                  if unit4>=unit6:
+                       print("highest stock",unit4)
                   else:
-                       print("f is greater")
+                       print("highest stock",unit6)
                else:  
-                 if e>=f: 
-                    print("e is greater")
+                 if unit5>=unit6: 
+                    print("highest stock",unit5)
                  else:
-                    print("f if greater")
+                    print("highest stock",unit6)
     
         
 
@@ -113,9 +113,6 @@ else:
 
 
                       
-  
 
-        else:     
-else:
 
       
