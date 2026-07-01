@@ -1,7 +1,4 @@
-name=input("Name")
-age=int(input("Age"))
-phone=input("Phone")
-print("---Bio Data---")
-print("Name:",name)
-print("Age:",age)
-print("Phone:",phone)
+name,age,phone=input("enter name ,age and phone =").split(",")
+print("---Bio Data--- ")
+print(f"Name:,{name}\n Age:{age}\n Phone:{phone}")
+
