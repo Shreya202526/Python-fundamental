@@ -1,13 +1,17 @@
-n=int(input("Enter the n"))
-i=1
-while i<=n:
-    print("")
-    j=1
-    while j<=i-1:
-           print(j,end="")
-           j=j+1
-    k=1
-    while k<=1:
-          print("*",end="")
-          k=k+1
-    i=i+1
+'''s=input("Enter the String:")
+words=s.split()
+for i in range(0,len(words),1):
+     w=words[i]
+     rev=""
+     for j in range(len(w)-1,-1,-1):
+         rev=rev+w[j]
+     print(rev,end=" ")'''
+
+
+s=input("Enter the string:")
+words=s.split()
+rev=""
+for j in range(len(words)-1,-1,-1):
+         rev=words[j]+rev
+print(rev,end=" ")
+

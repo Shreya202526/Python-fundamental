@@ -24,7 +24,7 @@ while i<len(s):
       
             j=j+1
       if count==1:
-           print(ch)
+           print(ch,end=" ")
       i=i+1
 
 
