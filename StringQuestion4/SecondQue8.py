@@ -1,3 +1,5 @@
+
+
 '''8.
 Find the Second Highest Repeating Character in a String
 Social Media Trend Analysis System

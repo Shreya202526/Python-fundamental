@@ -13,3 +13,4 @@ s=input("Enter complaint")
 print(s)
 length=s.split()
 print("Total words:",len(length))
+

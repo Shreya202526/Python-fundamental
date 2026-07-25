@@ -17,24 +17,17 @@ Output:
 a'''
 
 
-s=input("Enter input:")
-c=0 
-
+s=input("Input:")
+l=""
 for i in s:
-    count=0
+    repeat=0
     for j in s:
         if i==j:
-         count+=1
-    if count>c:
-        c = count       
-
-stored = ""
-for i in s:
-    count = 0
-    for j in s:
-        if i == j:
-            count += 1
-    if count == c and i not in stored:
-        print(i, end=" ")
-        stored = stored + i
-
+           repeat=repeat+1
+    if repeat>1:
+        l=i
+if l=="":
+    print("Not Repeated")
+else:
+    print(l)
+   

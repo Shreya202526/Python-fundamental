@@ -21,10 +21,11 @@ while i<len(s):
       while j<len(s):
             if ch==s[j]:
                   count=count+1
-      
+                  
             j=j+1
-      if count==1:
-           print(ch,end=" ")
       i=i+1
+if count==1:
+   print(ch,end=" ")
+   
 
 

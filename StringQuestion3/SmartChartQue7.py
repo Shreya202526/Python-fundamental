@@ -14,11 +14,13 @@ Display total character count'''
 
 
 s=input("enter compressed message")
-exp=""
-i=0
-while i<len(s):
-      exp=exp+s[i].lower()*int(s[i+1])
-      i=i+2
-print("Expanded message",exp)
-print("Total Character:",len(exp))
+result=""
+for x in s:
+    if x.isalpha():
+        result=result+x
+        previous=x
+    else:
+        result=result+previous*(int(x)-1)
+print("Expanded message",result)
+print("Total Character:",len(result))
       

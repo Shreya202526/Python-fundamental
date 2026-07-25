@@ -78,17 +78,32 @@ while True:
    match choice:
          case 1:
               s=input("Enter the String:")
-              rev=""
-              i=len(s)
-              while i>0:
-                    if s[i-1]>='a' and s[i-1]<='z':
-                       rev=rev+s[::-1]
-                    else:
-                       
-                    i=i-1
-
-              print(rev)
-                   
+              s1=""
+              s2=""
+              for i in range(len(s)-1,-1,-1):
+                   ch=s[i]
+                   if ch.isalpha():
+                    s1=s1+ch
+                   else:
+                    s2=ch+s2
+              i=0
+              j=0
+              s3=""
+              for k in s:
+                if not(k.isalpha()):
+                   s3+=s2[i]
+                   i+=1
+                else:
+                    s3+=s1[j]
+                    j+=1
+              print(s3)
+              print(s1)
+              print(s2)
+         case 2:
+              s=input("Enter the string")
+              new_string=s.split()
+              for x in new_string:
+                  
                     
               
               

@@ -12,9 +12,14 @@ Output:
 abcda'''
 
 s=input("Input:")
-temp=""
+ans=""
+
 for i in s:
-    if i not in temp:
-     temp+=i
-print(temp)
+   if ans=="" or  ans[-1]!=i:
+      
+      ans+=i
+        
+
+
+print(ans)
 

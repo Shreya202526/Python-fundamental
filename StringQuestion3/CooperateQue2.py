@@ -13,14 +13,12 @@ Input: Enter employee name: ajay singh thakur
 Output: Employee Short ID: AST'''
 
 s=input("Enter the String=")
-new_str=""
-i=0
-while i<len(s):
-       if i==0 or s[i-1]==" ":
-       i=i+1
+new_string=""
+for i in range(len(s)):
+    if i==0 or s[i-1]==" ":
+      new_string=new_string+s[i].upper()
+print(new_string)
 
-print(i).upper()
-             
 
 
 

@@ -13,31 +13,25 @@ Output
 b d'''
 
 
-s=input("Enter input:")
-c=0 
+s=input("Input:")
+c=0
 for i in s:
     count=0
     for j in s:
         if i==j:
-         count+=1
-    if count>c :
+            count+=1
+    if count>c:
         c=count
-
-print(c)
-ans=c 
-c=0       
+        print(count)
+stored=""
 for i in s:
     count=0
-    x=0
-    y=0
-    for j in range():
+    for j in s:
         if i==j:
-         count+=1
-    if ans==count :
-       x=1
-    if x==1:
-       print(i,end=" ")
-       x=0   
+            count=count+1
+    if count==c and i not in stored:
+        print(i,end=" ")
+        stored=stored+i
        
         
 

@@ -14,20 +14,12 @@ Enter vehicle number: MP04AB1234
 Output:
 Valid Vehicle Number'''
 
+s = input("Enter vehicle number: ")
 
-
-s=input("Enter PNR=")
-count=0
-if len(s)==10:
-   if s[0]=='M' and s[1]=='P' :
-     i=3
-     while i<len(s):
-           if s[i]>='0' and s[i]<='9':
-               count=count+1 
-           else: 
-              print("Invalid PNR")
-           i=i+1
-if count==9:
-    print("Valid PNR")
+if len(s) == 10 and s[0:2].isalpha() and s[2:4].isdigit():
+    print("Valid Vehicle Number")
 else:
-    print("Invalid PNR")
+    print("Invalid Vehicle Number")
+     
+
+
