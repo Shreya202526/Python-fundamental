@@ -23,9 +23,10 @@ while i<len(s):
                   count=count+1
                   
             j=j+1
+      if count==1:
+         print(ch,end=" ")
+         break
       i=i+1
-if count==1:
-   print(ch,end=" ")
    
 
 
