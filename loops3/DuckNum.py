@@ -11,19 +11,23 @@ Input:
 Output:
 Duck Number'''
 
-n=int(input("Enter the number="))
+n=input("Enter the number=")
 temp=n
 duck=0
-i=1
-while n>0:
+if n[0]=="0":
+    print("Not Duck number")
+else:
+    n=int(n)
+    i=1
+    while n>0:
       d=n%10
       if(d==0):
          duck=duck+1
       n=n//10
-if duck==0:
-   print("not duck")
-else:
-   print("Duck")
+    if duck==0:
+        print("not duck")
+    else:
+        print("Duck")
 
 
 

@@ -1,0 +1,139 @@
+
+21Find the first non-repeating character. S = "aabbcde" c'
+22Find the last repeating character. S = "abracadabra" r'
+23Print all characters that occur exactly twice. S = "aabbcdee" b', 'e'
+24Check if all characters in a string are unique (no repetition). S1 = "abc", S2 = "abca" S1: True, S2: False
+25Count total number of words in a string. S = "This is a test" 4
+26Find the first occurrence of a word. S = "Test this test", Word = "test" 10 (index)
+27Find the last occurrence of a word. S = "Test this test", Word = "test" 15 (index)
+28Count occurrences of a word. S = "word word other word", Word = "word" 3
+29Remove the first, last, or all occurrences of a word. S = "a test b test c", Word = "test", Remove All "a b c"
+30Replace a word with another word. S = "old data", Old = "old", New = "new" "new data"
+31Remove duplicate words from a string. S = "the cat and the dog" "the cat and dog"
+32Count the frequency of each word. S = "apple banana apple" apple: 2, banana: 1
+33Find the longest word. S = "find the longest word" "longest"
+34Find the shortest word. S = "find the shortest word" "the"
+35Find the first word that is a palindrome. S = "this madam is here" "madam"
+36Reverse the order of words. S = "one two three" "three two one"
+37Reverse each word in a string. S = "cat dog" "tac god"
+38Reverse words without using split(). S = "a b c" "c b a"
+39Search all occurrences of a character. S = "banana", Char = 'a' 1, 3, 5 (indices)
+40Search all occurrences of a word. S = "a b a b", Word = "b" 2, 6 (start indices)
+41Check if a string contains a substring (without using contains()). S1 = "Hello", Sub = "ell" TRUE
+42Check if two strings are equal without using equals(). S1 = "abc", S2 = "abc" TRUE
+43Check if two strings are rotations of each other. S1 = "abcde", S2 = "cdeab" TRUE
+44Check if two strings are anagrams. S1 = "listen", S2 = "silent" TRUE
+45Check whether a string starts with or ends with another string. S = "apple pie", Prefix = "apple", Suffix = "pie" Start: True, End: True
+46Check if a substring appears at both the start and end. S = "abcabca", Sub = "abca" TRUE
+47Check if one string is a substring of another using only concatenation. S1 = "CDAB", S2 = "ABCD" S1 is substring of S2S2 (ABCDABCD) → True
+48Remove all vowels. S = "aeiou XYZ" " XYZ"
+49Replace all consonants with ''. S = "apple" "ae"
+50Remove all digits. S = "a1b2c3" "abc"
+51Extract only digits. S = "a1b2c3" "123"
+52Remove all special characters. S = "a!@b#c" "abc"
+53Remove all punctuation characters. S = "Hello, world!" "Hello world"
+54Replace all duplicate characters with '$'. S = "hello" "he$lo"
+55Reverse only vowels. S = "hello" "holle"
+56Reverse only consonants. S = "apple" "eplpa"
+57Merge two strings alternatively (char by char). S1 = "ABC", S2 = "def" "AdBeCf"
+58Rotate characters by 2 positions to the left. S = "abcde" "cdeab"
+59Rotate characters by 3 positions to the right. S = "abcde" "cdeab"
+60Append two strings but remove duplicate adjacent characters. S1 = "miss", S2 = "issippi" "misisipi"
+61Count total alphabets, digits, and special characters. S = "a1b!c2" Alphabets: 3, Digits: 2, Special: 1
+62Count vowels and consonants. S = "apple" Vowels: 2, Consonants: 3
+63Count frequency of each character. S = "aabcc" a: 2, b: 1, c: 2
+64Count frequency of each vowel. S = "programming" o: 1, a: 1 (e, i, u: 0)
+65Count palindromic substrings. S = "aaa" 6 (a, a, a, aa, aa, aaa)
+66Count number of sentences in a paragraph. P = "This. Is. Test." 3
+67Count how many times a substring appears. S = "abab", Sub = "ab" 2
+68Count the sum of digits present in a string. S = "a1b2c3" 6 (1+2+3)
+69Count how many times 'life' appears in a string. S = "life is life" 2
+70Compare the number of times 'the' and 'is' appear. S = "the cat is on the mat" the: 2, is: 1 (theis)
+71Print all substrings. S = "abc" "a, b, c, ab, bc, abc"
+72Print all substrings of length n. S = "abc", n = 2 "ab, bc"
+73Find the longest palindromic substring. S = "babad" "bab" (or "aba")
+74Find the longest substring without repeating characters. S = "abcabcbb" "abc"
+75Find the longest common prefix among strings. Strings = ["flower", "flow", "flight"] "fl"
+76Find the longest common suffix among strings. Strings = ["baking", "making", "taking"] "king"
+77Find the longest substring that appears at both ends. S = "abracadabra" "abra"
+78Find the longest mirror-image substring at both ends. S = "aabccbaa" "aab"
+79Divide a string into n equal parts. S = "abcdef", n = 3 "ab", "cd", "ef"
+80Print list items containing all characters of a given word. List = ["apple", "plea"], Word = "pal" "apple", "plea"
+81Generate a hash code or UUID. S = "test" Hash: 3556498 (Example hash code)
+82Create a string from a character array. Char[] = {'h', 'i'} "hi"
+83Create a string from a byte array. Byte[] = {72, 101, 108} (ASCII for H, e, l) "Hel"
+84Print ASCII value of each character. S = "A" A: 65
+85Convert string into a char array without built-in functions. S = "test" {'t', 'e', 's', 't'}
+86Print all permutations of a string without repetition. S = "ab" "ab", "ba"
+87Print all permutations of a string with repetition. S = "aab" "aab", "aba", "baa"
+88Rearrange a string so that identical characters are at least d distance apart. S = "aaabc", d = 2 "abaca"
+89Remove 'b' and 'ac' from a string. S = "abacbb" "c"
+90Remove adjacent duplicates recursively. S = "azxxzy" "ay"
+91Check if two strings are interleaving of another string. S1 = "aab", S2 = "axy", S3 = "aaxaby" TRUE
+92Check if two strings are pq-balanced. S1 = "pqqp", S2 = "qpqp" Example dependent on specific "pq-balanced" definition
+93Match strings with wildcard characters ($\*$, ?). Pattern = "a?c", Text = "axcde" TRUE
+94Find the smallest window containing all characters of another string. S1 = "ADOBECODEBANC", S2 = "ABC" "BANC"
+95Find the second most frequent character. S = "aabbccdde" c' or 'd'
+96Find the second most frequent word. S = "a b a c b" c'
+97Check if two given strings appear at the end of each other (ignoring case). S1 = "abc", S2 = "Xabc" TRUE
+98Check if the first 'z' is immediately followed by another 'z'. S1 = "zzyy", S2 = "zyzz" S1: True, S2: False
+99Check if a 'z' is happy (surrounded by same chars). S = "azzb" FALSE
+100Return true if string contains 'abc' not followed by '.'. S1 = "abcx", S2 = "abc." S1: True, S2: False
+101Check if a string is a valid palindrome ignoring spaces and punctuation. S = "A man, a plan, a canal: Panama" TRUE
+102Reverse a string using recursion. S = "abc" "cba"
+103Check if a string contains balanced parentheses. S = "((()))" TRUE
+104Check if a string contains balanced brackets of all types ((), {}, []). S = "{[()]}" TRUE
+105Find the longest valid parentheses substring. S = "()(())" 6
+106Generate all subsequences of a string. S = "ab" "", "a", "b", "ab"
+107Check if a string is a pangram (contains every letter). S = "The quick brown fox jumps over the lazy dog" TRUE
+108Check if a string is an isogram (no repeating letters). S = "ambidextrous" TRUE
+109Find the lexicographically smallest substring of length k. S = "banana", k = 3 "ana"
+110Find the lexicographically largest substring of length k. S = "banana", k = 3 "nan"
+111Check if a string can be rearranged into a palindrome. S = "aabbc" TRUE
+112Find the minimum number of deletions to make a string palindrome. S = "aebcbda" 2 (delete 'e', 'd' → "abcba")
+113Find the minimum number of insertions to make a string palindrome. S = "aebcbda" 2 (insert 'd', 'e' → "adebcbeda")
+114Check if one string is a subsequence of another. S1 = "ace", S2 = "abcde" TRUE
+115Find the edit distance (Levenshtein distance) between two strings. S1 = "kitten", S2 = "sitting" 3
+116Check if a string is a valid shuffle of two other strings. S1 = "xy", S2 = "12", S3 = "x1y2" TRUE
+117Check if a string contains duplicate substrings. S = "ababa" True (e.g., "aba")
+118Find the longest repeated substring. S = "banana" "ana"
+119Find the smallest substring containing all vowels. S = "aeiouy" "aeiou"
+120Find the longest substring containing only vowels. S = "abaeiouy" "aeiou"
+121Check if a string contains only binary digits (0/1). S1 = "1010", S2 = "102" S1: True, S2: False
+122Convert a binary string to decimal. S = "101" 5
+123Convert a decimal number to binary string. N = 5 "101"
+124Find the longest common subsequence of two strings. S1 = "AGGTAB", S2 = "GXTXAYB" "GTAB"
+125Find the shortest common supersequence of two strings. S1 = "AGGTAB", S2 = "GXTXAYB" "AGGXTXAYB"
+126Print all anagrams of a string. S = "cat" "cat, cta, act, atc, tca, tac"
+127Group words that are anagrams from an array of strings. Arr = ["eat", "tea", "tan", "ate", "nat"] [["eat", "tea", "ate"], ["tan", "nat"]]
+128Check if a string follows a given pattern. Pattern = "abba", S = "dog cat cat dog" TRUE
+129Find the smallest window containing all distinct characters. S = "aabcbde" "aabcbde"
+130Find the maximum occurring word. S = "a b a c a" a'
+131Check if a string is a valid email address. S = "test@example.com" TRUE
+132Check if a string is a valid IP address. S = "192.168.1.1" TRUE
+133Convert a Roman numeral string to integer. S = "XIV" 14
+134Convert an integer to Roman numeral string. N = 14 "XIV"
+135Check if two strings differ by exactly one character. S1 = "pale", S2 = "ple" False (differs by insertion/deletion)
+136Check if two strings are one edit distance apart. S1 = "pale", S2 = "ple" TRUE
+137Find the length of the longest substring with at most k distinct characters. S = "eceba", k = 2 3 ("ece")
+138Find all palindromic partitions of a string. S = "aab" ["a", "a", "b"], ["aa", "b"]
+139Check if a string can be segmented into valid dictionary words. S = "applepenapple", Dict = ["apple", "pen"] TRUE
+140 Implement KMP algorithm for substring search. Text = "abcxabc", Pattern = "abc" 0, 4 (indices)
+141 Implement Rabin-Karp algorithm for substring search. Text = "abcxabc", Pattern = "abc" 0, 4 (indices)
+142 Implement Z algorithm for substring search. Text = "aabaaab", Pattern = "aab" 0, 4 (indices)
+143Check if a string is valid JSON format (basic check). S = '{\text{"key"}: \text{"value"}}' TRUE
+144Check if a string is valid HTML/XML tag sequence. S = "<a><b></a></b>" FALSE
+145Remove HTML tags from a string. S = "<h1>Title</h1>" "Title"
+146Compress a string using run-length encoding. S = "aaabbc" "a3b2c1"
+147Decompress a run-length encoded string. S = "a3b2c1" "aaabbc"
+148 Find the first recurring substring of length k.
+149 Check if two strings are scrambled versions of each other.
+150 Find the lexicographically next permutation of a string.
+151 Find the lexicographically previous permutation of a string.
+S = "abcab", k = 2
+S1 = "great", S2 = "rgeat"
+S = "abc"
+S = "acb"
+"ab"
+"acb"
+"ab

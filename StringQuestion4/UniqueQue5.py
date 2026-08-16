@@ -19,4 +19,4 @@ while i<len(s):
       if ch not in unique:
         unique=unique+ch
       i=i+1
-print(unique)
+print(len(unique))

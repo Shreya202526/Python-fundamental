@@ -1,3 +1,4 @@
+
 '''Number Stability Analyzer
 A scie5nce lab studies whether digits are in increasing order.
 Write ay next digit is greater than previous print Stable Number

@@ -16,6 +16,8 @@ while n>0:
       n=n//10
       print(d)
       while n>0:
+
+
             d2=n%10
             print(d2)
             if d2==d:

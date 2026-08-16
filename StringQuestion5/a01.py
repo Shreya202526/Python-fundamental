@@ -14,7 +14,6 @@ abc'''
 s=input("Enter : ")
 
 ans=""
-
 for i in s :
     temp=""
 

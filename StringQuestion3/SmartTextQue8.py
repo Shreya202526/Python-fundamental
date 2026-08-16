@@ -102,11 +102,42 @@ while True:
          case 2:
               s=input("Enter the string")
               new_string=s.split()
-              for x in new_string:
-                  
-                    
-              
-              
+              temp=""
+              for i in range(len(new_string)-1):
+                   if new_string[i] not in temp:
+                      temp=temp+new_string[i]+" "
+              print(temp)
+              temp=temp.split()
+              print(" ".join(temp[::-1]))
+         case 3:
+           s=input("Enter the string")
+           new_string=s.split()
+           str2=""
+           result=""
+          
+           for x in new_string:
+              found=False
+              for i in x:
+               if i.isnumeric():
+                 found=True
+                 break
+              if found:
+               str2=str2+x+" "
+              else:
+               str2=str2+x[::-1]+" "
+           for i in range(len(str2)):
+              if i==0 or str2[i-1]==" ":
+                 if str2[i].lower():
+                   result=result+str2[i].upper()
+                 else:
+                    result=result+str2[i]
+              else:
+                 result=result+str2[i]
+                              
+           print(result)
+          
+             
+ 
 
 
 
@@ -114,3 +145,4 @@ while True:
 
 
 
+ 

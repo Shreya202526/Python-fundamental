@@ -37,6 +37,9 @@ else:
     print("Composite")  
 print("Factors count",fac) 
 print("smallest",smallest)'''
+
+
+
 n=int(input("Enter the number"))
 count=0
 i=2
