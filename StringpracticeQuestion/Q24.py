@@ -1,26 +1,31 @@
 '''24Check if all characters in a string are unique. S1 = "abc", S2 = "abca" S1: True, S2: False'''
-s1='abc'
-s2='abca'
-result=""
-count=0
+
+
+'''s=input("Enter the String: ")
+new=""
+for i in s:
+    c=0
+    for j in s:
+        if i==j:
+            c+=1
+    if c==1:
+        new+=i
+if new=="":
+    print("No unique Chracter")
+else:
+    print("unique character",new)'''
+
+s=input("Enter the String: ")
+new=""
 unique=True
-for i in s1:
-     if i in result:
-       count+=1
-     else:
-        result+=i
-if count>=1:
-    unique=False
-print("S1:",unique)
-print(result)
-for i in s2:
-     if i in result:
-       count+=1
-     else:
-        result+=i
-if count>=1:
-    unique=False
-print("S2:",unique)
-print(result)
-    
+for i in s:
+    c=0
+    for j in s:
+        if i==j:
+            c+=1
+    if c>1:
+        unique=False
+        break
+print("unique character",unique)
+
 

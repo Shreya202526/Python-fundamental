@@ -44,9 +44,9 @@ for i in range(varr):
         result.append(positive[i])
         result.append(negative[i])
 
-for i in range(n-diff,len(positive)):
+'''for i in range(n-diff,len(positive)):
     result.append(positive[i])
-print(result)
+print(result)'''
 if len(positive)>len(negative):
  for i in range(diff,len(positive)):
      result.append(positive[i])

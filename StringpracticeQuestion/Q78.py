@@ -1,5 +1,5 @@
 '''78 Find the longest mirror-image substring at both ends. S = "aabccbaa" "aab"'''
-s=input("Enter the String")
+'''s=input("Enter the String")
 result=""
 l=""
 larg=0
@@ -14,4 +14,11 @@ for i in range(1):
         if sub==rev and len(sub)>len(l):
             result=sub
             larg=len(sub)
-print(result)
+print(result)'''
+
+
+s=input("Enter the string")
+for i in range(len(s)):
+    for j in range(i,len(s)):
+        sub=s[i:j]
+        print(sub)

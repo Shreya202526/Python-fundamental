@@ -7,8 +7,9 @@ for x in s:
     for y in s:
         if x==y:
            c+=1
-    if c>=1:
+    if c>1:
      temp=x
+     
 print(temp)
 
     

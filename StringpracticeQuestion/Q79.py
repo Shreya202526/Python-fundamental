@@ -2,5 +2,6 @@
 
 s=input("Enter the String=")
 n=int(input("Enter size of equal parts="))
-for i in range(0,len(s),n):
-    print(s[i:i+n],end=" ")
+parts=int(len(s)/n)
+for i in range(0,len(s),parts):
+    print(s[i:i+parts],end=" ")

@@ -66,6 +66,7 @@
 85Convert string into a char array without built-in functions. S = "test" {'t', 'e', 's', 't'}
 86Print all permutations of a string without repetition. S = "ab" "ab", "ba"
 87Print all permutations of a string with repetition. S = "aab" "aab", "aba", "baa"
+
 88Rearrange a string so that identical characters are at least d distance apart. S = "aaabc", d = 2 "abaca"
 89Remove 'b' and 'ac' from a string. S = "abacbb" "c"
 90Remove adjacent duplicates recursively. S = "azxxzy" "ay"
