@@ -67,14 +67,14 @@
 86Print all permutations of a string without repetition. S = "ab" "ab", "ba"
 87Print all permutations of a string with repetition. S = "aab" "aab", "aba", "baa"
 
-88Rearrange a string so that identical characters are at least d distance apart. S = "aaabc", d = 2 "abaca"
-89Remove 'b' and 'ac' from a string. S = "abacbb" "c"
-90Remove adjacent duplicates recursively. S = "azxxzy" "ay"
-91Check if two strings are interleaving of another string. S1 = "aab", S2 = "axy", S3 = "aaxaby" TRUE
-92Check if two strings are pq-balanced. S1 = "pqqp", S2 = "qpqp" Example dependent on specific "pq-balanced" definition
-93Match strings with wildcard characters ($\*$, ?). Pattern = "a?c", Text = "axcde" TRUE
-94Find the smallest window containing all characters of another string. S1 = "ADOBECODEBANC", S2 = "ABC" "BANC"
-95Find the second most frequent character. S = "aabbccdde" c' or 'd'
+88 Rearrange a string so that identical characters are at least d distance apart. S = "aaabc", d = 2 "abaca"
+89 Remove 'b' and 'ac' from a string. S = "abacbb" "c"
+90 Remove adjacent duplicates recursively. S = "azxxzy" "ay"
+91 Check if two strings are interleaving of another string. S1 = "aab", S2 = "axy", S3 = "aaxaby" TRUE
+92 Check if two strings are pq-balanced. S1 = "pqqp", S2 = "qpqp" Example dependent on specific "pq-balanced" definition
+93 Match strings with wildcard characters ($\*$, ?). Pattern = "a?c", Text = "axcde" TRUE
+94 Find the smallest window containing all characters of another string. S1 = "ADOBECODEBANC", S2 = "ABC" "BANC"
+95 Find the second most frequent character. S = "aabbccdde" c' or 'd'
 96Find the second most frequent word. S = "a b a c b" c'
 97Check if two given strings appear at the end of each other (ignoring case). S1 = "abc", S2 = "Xabc" TRUE
 98Check if the first 'z' is immediately followed by another 'z'. S1 = "zzyy", S2 = "zyzz" S1: True, S2: False

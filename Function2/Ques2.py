@@ -2,7 +2,8 @@
  Employee Bonus Calculation (Using filter() and map() with Lambda Expressions)
 
 
-A software company wants to reward its high-performing employees with a 10% bonus. However, only employees earning ₹50,000 or more are eligible for
+A software company wants to reward its high-performing employees with a 10% bonus. However, 
+only employees earning ₹50,000 or more are eligible for
  the bonus.
 
 As a software developer, your task is to:
@@ -11,7 +12,8 @@ Filter the salaries of eligible employees.
 Calculate the updated salary after adding a 10% bonus.
 Display the final salaries of the eligible employees.
 
-Note: Use filter() to identify eligible employees and map() to calculate the updated salaries. Both operations must use lambda expressions.
+Note: Use filter() to identify eligible employees and map() to calculate the updated salaries. 
+Both operations must use lambda expressions.
 
 Input Format
 The first line contains an integer N, representing the number of employees.
@@ -30,4 +32,24 @@ Sample Output
 Eligible Employees' Updated Salaries:
 55000.0 68200.0 77000.0 60500.0
 '''
+'''lst=list(map(int,input("Enter the element of list: ").split(",")))
+def salary(x):
+    if x>=50000:
+     return x
+def bonus(x):
+   return x+x*(10/100)
+eligible_emp=filter(salary,lst)
+result=map(bonus,eligible_emp)
+
+print(list(result))'''
+
+
+
+n=int(input("Enter the number of employees: "))
+Employee=list(map(int,input("Enter the salries: ").split(" ")))
+
+eligible_empl=filter(lambda x:x>=50000,Employee)
+result=(map(lambda x:x+x*(10/100),eligible_empl))
+
+print(*result)
 

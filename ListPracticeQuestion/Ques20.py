@@ -2,7 +2,10 @@
 
 Merge nums1 and nums2 into a single array sorted in non-decreasing order.
 
-The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
+The final sorted array should not be returned by the function, but instead be stored inside the array nums1. 
+To accommodate this, nums1 has a length of m + n, where the first m elements 
+denote the elements that should be merged, and the last n elements are set to 0 and should be ignored.
+ nums2 has a length of n.
 
  
 
@@ -28,3 +31,23 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
  result can fit in nums1'''
 
 
+num1=list(map(int,input("Enter the element of list1: ").split(",")))
+m=int(input("Enter the size of num1: "))
+num2=list(map(int,input("Enter the element of list2: ").split(",")))
+n=int(input("Enter the size if num2: "))
+i=m-1
+j=n-1
+k=m+n-1
+while i>=0 and j>=0:
+    if num1[i]>num2[j]:
+        num1[k]=num1[i]
+        i-=1
+    else:
+        num1[k]=num2[j]
+        j-=1
+    k-=1
+while j>0:
+    num1[k]=num2[j]
+    j-=1
+    k-=1
+print(num1)
