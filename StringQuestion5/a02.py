@@ -11,7 +11,7 @@ india won the match and india created history
 Output:
 india'''
 
-s=input("Enter input:")
+'''s=input("Enter input:")
 new_string=s.split()
 c=0
 for i in new_string:
@@ -24,6 +24,19 @@ for i in new_string:
         max=i
 print(max)
 print(c)
+'''
 
 
-
+s=input("Enter message :")
+w=s.split()
+vis=""
+max=""
+c=0
+for ch in w:
+    if ch not in vis:
+        vis =vis+ch+" "
+        count=s.count(ch)
+        if count>c:
+            c=count
+            max=ch
+print(max)

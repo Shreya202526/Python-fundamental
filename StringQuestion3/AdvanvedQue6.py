@@ -1,7 +1,8 @@
 '''6.
  Advanced Student Registration Data Processing System
 
-A national university is developing an intelligent registration portal.Students enter registration codes using uppercase letters, lowercaseletters, digits, and special symbols. Due toinconsistent data entry,the administration wants the system to standardize and process theinformation before storing it.Conditions: - Ignore all special characters (@ # $ % & * - _) - Separate alphabets and digits - Convert all alphabets to lowercase - Removeduplicate alphabets - Arrange alphabets in ascending order - Arrange digits in descending order - Display alphabets first and digits later -
+A national university is developing an intelligent registration portal.Students enter registration codes using uppercase letters, lowercaseletters, digits, and special symbols. Due toinconsistent data entry,the administration wants the system to standardize and
+ process theinformation before storing it.Conditions: - Ignore all special characters (@ # $ % & * - _) - Separate alphabets and digits - Convert all alphabets to lowercase - Removeduplicate alphabets - Arrange alphabets in ascending order - Arrange digits in descending order - Display alphabets first and digits later -
 If no digits are found, display “No Digits Found”'''
 
 code=input("Enter registration code:")

@@ -51,6 +51,10 @@ Enter Author: David
 Enter Price: 900
 
 Enter details for Book 6:
+
+
+
+
 Enter Book ID: B206
 Enter Title: Computer Networks
 Enter Author: Martin

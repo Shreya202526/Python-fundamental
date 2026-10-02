@@ -23,7 +23,7 @@ service : 1
 good : 1'''
 
 
-s=input("Input:")
+'''s=input("Input:")
 new_string=s.split()
 visited=""
 for i in new_string:
@@ -32,5 +32,22 @@ for i in new_string:
          for j in new_string:
            if i==j:
              c1=c1+1
-    print(i ,c1)
-    visited=visited+i+" "
+         print(i ,c1)
+    visited=visited+i+" "'''
+
+
+
+
+
+s=input("Enter the string")
+new_string=s.split()
+done=""
+for i in new_string:
+    c=0
+    for j in new_string:
+        if i==j :
+            c+=1
+    if i not in done:
+        print(f"{i}:{c}")
+        done+=i
+          

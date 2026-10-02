@@ -19,7 +19,7 @@ Sample Input:
 Sample Output:
 Total Quantity = 6
 
----'''
+---
 
 m = int(input("Enter number of values :"))
 
@@ -31,5 +31,14 @@ for i in range (m):
 
 s = sum(d.values())
 print(f"Total Quantity :{ s }")
+'''
 
 
+m=int(input("enter the number of element:"))
+d={}
+for i in range(m):
+    key=input("Enter key:")
+    value=int(input("Enter the value "))
+    d[key]=value
+s=sum(d.values())
+print(s)

@@ -1,12 +1,4 @@
 from model.student import Student
-
-
-
-
-
-
-
-
 students=[]
 n=int(input("Enter the number of student:"))
 for i in range(n):

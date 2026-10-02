@@ -19,7 +19,7 @@ file file image file image data
 
 text
 file file(1) image file(2) image(1) data'''
-
+'''
 text="file file image file image data"
 
 words=text.split()
@@ -35,6 +35,22 @@ for word in words:
         ans.append(word+f"({count[word]})")
 print(" ".join(ans))
 
+'''
+    
+s=input("Enter the String : ")
+s1=""
+word=s.split()
+for i in word:
+    word2=s1.split()
+    print(word2)
+    count=0
+    for j in word2:
+        if i==j:
+            count+=1
+            print(count)
+    if count==0:
+        s1+=i+" "
+    else:
+        s1+=i+" ("+ str( count )+") "            
 
-    
-    
+print(s1)

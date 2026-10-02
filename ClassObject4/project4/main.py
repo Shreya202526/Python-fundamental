@@ -10,4 +10,9 @@ for i in n:
   account=Account(account_no,customer_name,balance)
   accounts.append(account)
 
-  
+
+
+print("All Accounts")
+for account in account:
+  account.display()
+

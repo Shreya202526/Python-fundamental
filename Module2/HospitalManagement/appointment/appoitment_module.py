@@ -44,7 +44,7 @@ def book_appointment():
         "Appointment Date":date,
         "Appointment Time":time
     }
-    Appoitment.appent(appoitment_details)
+    Appoitment.append(appoitment_details)
     print("Stored appoitment Information")
 
 def show_appointments():

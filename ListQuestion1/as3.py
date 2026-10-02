@@ -112,7 +112,7 @@ Sorted Prime List: [29, 31, 37, 41]
 ---
 '''
 
-
+'''
 n=int(input("Enter the string="))
 nums=[]
 prime=[]
@@ -148,3 +148,31 @@ else:
  print("Prime List",prime)
  prime.sort()
  print("Sorted prime",prime)
+
+
+
+'''
+lst=list(map(int,input("Enter the element of list:").split(",")))
+print(lst)
+new_lst=[]
+count=0
+l_prime=0
+for i in lst:
+   for j in range(2,i//2):
+      if i%j==0:
+         break
+   else:
+      count+=1
+      print(i,end=" ")
+      print()
+      new_lst.append(i)
+      if i>l_prime:
+         l_prime=i
+print("prime count",count)
+print("Non prime Count",len(lst)-count)
+print("Largest prime",l_prime)
+print("prime list",new_lst)
+print("Sorted prime list",sorted(new_lst))
+
+
+      

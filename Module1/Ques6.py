@@ -162,7 +162,7 @@ CASE 6 – Exit
 Enter your choice: 6
 
 Thank you for using Employee & Project Date Calculator!'''
-
+from datetime import datetime,timedelta
 
 while True:
    print(" ========== EMPLOYEE & PROJECT DATE CALCULATOR ==========")
@@ -176,4 +176,21 @@ while True:
    choice=int(input("Enter your choice: "))
    match choice:
       case 1:
-         
+         joining_date=input("Enter the joining Date:")
+         probation=int(input("Enter the prohibition days:"))
+         joining_date=datetime.strptime(joining_date,"%d-%m-%Y")
+         probation_date=joining_date+timedelta(days=probation)
+         print("joining date",joining_date.strftime("%d-%m-%Y"))
+         print("probation date",probation_date.strftime("%d-%m-%Y"))
+         print("probation date",probation)
+      case 2:
+         project_start=input("Enter project start date:")
+         project_d=int(input("Enter project Duration:"))
+         project_start=datetime.strptime(project_start,"%d-%m-%Y")
+         project_day=project_start+timedelta(days=project_d)
+         print("project date",project_start.strftime("%d-%m-%Y"))
+         print("project duration:",project_d)
+         print("project deadline:",project_day.strftime("%d-%m-%Y"))
+      case 4:
+         current_date=input("Enter Current Date:")
+         project_deadline=input()
